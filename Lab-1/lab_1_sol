@@ -1,0 +1,12 @@
+2. What is the difference between cat and more command?
+-- Use the more or page command to display continuous text one screen at a time. 
+Use the cat command to read each File parameter in sequence and writes it to standard output.
+
+3. What is the difference between rm and rmdir using man?
+-- The rm command removes complete directories, including subdirectories and files. The rmdir command removes empty directories
+
+4.a. Remove dir11 in one-step. What did you notice? And how did you overcome that?
+---- I had to use rm -r to remove the dir11
+
+4.b. Then remove dir12 using rmdir –p command. State what happened to the hierarchy (Note: you are in your home directory).
+---- I had to be on dir1 and use rmdir -p dir12 to remove dir12
