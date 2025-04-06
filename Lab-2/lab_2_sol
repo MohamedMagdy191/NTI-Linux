@@ -1,1 +1,37 @@
+# 1. List the available shells in your system.
+-- using this command `cat /etc/shells`
+
+# 2. List all of the environment variables in your current shell.
+-- use the command `printenv`
+
+# 3. Display your current shell name.
+-- using the command `echo $0`
+
+# 4. List all of the environment variables for the Bash shell.
+-- use the command `printenv`
+
+# 5. Edit your shell profile to display the date at login and change your prompt.
+-- in the home use command `nano .bash`
+
+# 6. Redirect the output of the ls command to a file called file_list.txt.
+-- firstly use the command `ls > file_list.txt`
+-- to show the list: `cat file_list.txt`
+
+# 7. Use file globbing to list all .txt files in the current directory.
+-- the command `ls *.txt`
+
+# 8. Redirect the output of the ls command to a file and append it.
+-- `ls > file` this command will redirect the output to the file
+-- `ls >> file` this command will append the output to the same file 
+
+# 9. Use a pipe to send the output of ls to the grep command to filter for files containing the word "report".
+
+
+
+
+
+
+
+
+
 
